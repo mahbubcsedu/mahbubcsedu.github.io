@@ -1,85 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Resume of software engineer with computer vision  and machine learning">
+    <meta name="author" content="Mahbubur rahman">
 
     <title>Mahbubur Rahman</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
-    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/resume.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-  </head>
+    <!--Load Bootstrap css-->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!--load font awesome-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-  <body id="page-top">
+</head>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-      <span class="d-none d-lg-block"> Mahbubur Rahman</span>
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Mahbubur Rahman</span>
 
-        <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
-        </span>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-          </li>
-        </ul>
-      </div>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Mahbubur Rahman</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Publications</a>
+                    </li>
+                    <li>
+                        <!--<a class="page-scroll" href="#contact">Resume</a>-->
+                        <a class="page-scroll" href="docs/resume_mahbubur_rahman.pdf">Resume</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
     </nav>
 
-    <div class="container-fluid p-0">
+    <!-- Intro Section -->
+    <!--<section id="intro" class="intro-section">-->
+      <section id="intro" class="services-section">
+      
+      <div class="container">
 
-      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-        <div class="my-auto">
-          <h3 class="mb-0">Mahbubur
-            <span class="text-primary">Rahman</span>
-          </h3>
-          <div class="subheading mb-6">300 N Chapel Gate Ln, Apt G, Baltimore, MD-21229
+      <div class="row"> <!-- first row with profile picture-->
+
+        <div class="col-md-3 text-left">
+        </br>
+        </br>
+          <img src="imgs/profile.jpg" class="text-center" alt="Mahbubur Rahman" height="200">
+        </div>
+
+        <div class="col-md-5 text-left">
+          <h2>Mahbubur Rahman</h2>
+          <p>Ph.D. Candidate
+            <br/> 
             <a href="mailto:name@email.com">mahbub1@umbc.edu</a>
-          </div>
-          <p class="mb-5">I am a PhD student and a research assistant in computer science at the University of Maryland Baltimore County, Baltimore-MD . Currently I am working in the Mobile, Pervasive, and sensor System Laboratory.
-Prior to joining the University of Arkansas, I was a graduate student and research assistant in Logistics Information and Technology at Pusan National University. I worked there with Dr. Bonghee Hong in the Ubiquitous Computing Database Laboratory. I worked there on logistics information technology and took part in research and development of different middlewares of port logistics system like Electronic Product Code Information System (EPCIS) ,Real Time Location System (RTLS), Object Naming Service Discovery Service (ONSDS). Before that,I have been graduated in Computer Science from the University of Dhaka, the largest and the historical university of Bangladesh.
-I also have worked as a system engineer in Huawei, one of the biggest telecommunication vendors working in Bangladesh. There, I have worked on developing systems of generating automated reports related to the network performance of the telecommunication network of airtel bangladesh. Before that, I have worked for the ABCCorp as a software developer and worked on developing ERP software for the Mobile Jomuna Bangladesh Ltd.
-I am primarily interested in Mobile Computing, Crowd-Source and Machine Learning. I love to work on new technologies with new challenge of solving problems. I like to work with all kinds of people.</p>
+          </p>
+          
+          <p>  
+            <br />Research Assistant, at <a href="https://eclipse.umbc.edu/">ECLIPSE Cluster</a>
+            <br /><a href="http://www.csee.umbc.edu/">Department of Computer Science and Electrical Engineering</a>
+            <br /><a href="http://www.umbc.edu/">University of Maryland, Baltimore County</a>
+            <br />1000 Hilltop Circle, Baltimore, Maryland, 21250
+            <br />Office: ITE 351</p>
+        </div>
+        <div class="col-md-4 text-left">
+        
+        </br>
+        </br>
+        </br>
+          <h3>Education</h3>
+          <h7> M.Sc., LIT, Pusan National University, Busan, S. Korea</h7>
+        
+          <h7> B.Sc., CSE, University of Dhaka, Dhaka, Bangladesh</h7>
+
+        </div>
+                            
+      </div><!-- first row end-->
+</br>
+</br>
+       <div class="row">
+
+          <div class="col-md-3"> 
+
+
+        <div class="my-auto text-left">
           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://www.facebook.com/mahbubcsedu">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -87,7 +133,7 @@ I am primarily interested in Mobile Computing, Crowd-Source and Machine Learning
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://twitter.com/mahbubcsedu">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -95,7 +141,7 @@ I am primarily interested in Mobile Computing, Crowd-Source and Machine Learning
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://www.linkedin.com/in/mahbubcsedu/">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -103,7 +149,7 @@ I am primarily interested in Mobile Computing, Crowd-Source and Machine Learning
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://github.com/mahbubcsedu">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -111,216 +157,209 @@ I am primarily interested in Mobile Computing, Crowd-Source and Machine Learning
               </a>
             </li>
           </ul>
-        </div>
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-        <div class="my-auto">
-          <h2 class="mb-5">Experience</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Senior Web Developer</h3>
-              <div class="subheading mb-3">Intelitec Solutions</div>
-              <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">March 2013 - Present</span>
-            </div>
+        </div>  
+                    <!--    <div class="text-center">
+                             <img src="imgs/profile.jpg" class="text-center" alt="Mahbubur Rahman" height="200">
+                        </div> -->
           </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Web Developer</h3>
-              <div class="subheading mb-3">Intelitec Solutions</div>
-              <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">December 2011 - March 2013</span>
-            </div>
+          <div class="col-lg-8">
+          <p class="text-left">I am a Ph.D. candidate and a research assistant in computer science at University of 
+          aryland Baltimore County, Baltimore-MD. Currently, I am working in the Eclipse cluster lab. Prior to 
+        joining Eclipse cluster lab, I was a graduate student and research assistant in Logistics Information 
+      and Technology at Pusan National University. I worked there with Dr. Bonghee Hong in the Ubiquitous 
+    Computing Database Laboratory. I completed my undergraduate in computer science, the University of Dhaka.</p>
+
           </div>
+        </div> <!-- end of second row-->
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Junior Web Designer</h3>
-              <div class="subheading mb-3">Shout! Media Productions</div>
-              <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+        <div class="row">
+        <div class="col-md-3"></div>
+
+        <div class="col-lg-8 text-left">
+        <h3>Research Interests</h3>
+          <p>I am interested in data driven system development in computer vision. In specific, my works span on applications 
+            about computer vision-based assistive technology, sensor data to monitor human health status and apply machine learning
+            in designing automated speech recognition applications. </p>
+      
+       </div>
+
+        </div><!-- end of third row-->
+        </div><!-- end of container-->
+
+    </section>
+
+
+
+
+
+
+    <!-- About Section -->
+    <!--<section id="about" class="about-section">-->
+      <section id="about" class="services-section">
+        <div class="container" id="projecthtml">
+            <div class="row">
+              <div class="col-md-3"></div>
+                <div class="col-lg-8 text-left">
+                    <h1>Projects</h1>
+                </div>
             </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">July 2010 - December 2011</span>
-            </div>
+</br>
+        <div class="row">
+        <div class="col-md-3"></div>
+
+        <div class="col-lg-8 text-left">
+        <div class="row">
+          <div class="col-md-4">
+            <img class="img-rounded" src="imgs/hav.png" width="230" alt="Human Assisted Computer Vision">      
           </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Web Design Intern</h3>
-              <div class="subheading mb-3">Shout! Media Productions</div>
-              <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">September 2008 - June 2010</span>
-            </div>
-          </div>
-
-        </div>
-
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-        <div class="my-auto">
-          <h2 class="mb-5">Education</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">University of Maryland Baltimore County</h3>
-              <div class="subheading mb-3">PhD candidate, expected to graduate by Summer 2018</div>
-              <div>Computer Science </div>
-              
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">August 2013 - Present</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Pusan National University</h3>
-              <div class="subheading mb-3">Master of Science (MSc.)</div>
-              <div class="subheading mb-3">Logistics Information Technology</div>
-              
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">February 2009 - January 2011</span>
-            </div>
-          </div>
-
-         <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">University of Dhaka</h3>
-              <div class="subheading mb-3">Bachelor of Science, Computer Science & Engineering</div>
-              
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">February 2002 - august 2008</span>
-            </div>
+          <div class="col-md-8">
+            <h4>Vision-based Realtime Accessibility Issues Detection</h4>
+            <p> The project aims at using machine vision to detect accessibility issues on sidewalks for helping people with visually-impairment. A prior-based framework is designed to accelerate the computer vision detection process in embedded devices, which uses a cooperation of human and machine. </p>
+            <span class="label label-warning">Demo</span>
           </div>
         </div>
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-        <div class="my-auto">
-          <h2 class="mb-5">Skills</h2>
-
-          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-          <ul class="list-inline list-icons">
-            <li class="list-inline-item">
-              <i class="devicons devicons-html5"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-css3"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-javascript"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-jquery"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-sass"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-less"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-bootstrap"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-wordpress"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-grunt"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-gulp"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-npm"></i>
-            </li>
-          </ul>
-
-          <div class="subheading mb-3">Workflow</div>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Cross Functional Teams</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum</li>
-          </ul>
         </div>
-      </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
-        <div class="my-auto">
-          <h2 class="mb-5">Interests</h2>
-          <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.</p>
+        <hr>
+        
+      </br>
+      </br>
+      </br>
+      </br>
+      </br>
+      </br>
+      </br>
+
+        <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-lg-8 text-left">
+        <div class="row">
+          <div class="col-md-4">
+            <img class="img-rounded" src="imgs/laststep.png" width="230" alt="laststep">
+          </div>
+          <div class="col-md-8">
+            <h4>Vision-based Accurate Bus Stop Localization</h4>
+            <p>We target to detect and localize bus stop accurately to improve the accessibility of bus station for blind riders. A bus stop detection system is developed and implemented completely in a smartphone platform.</p>
+            <span class="label label-success"><a href="papers/buildsys_poster_2016_laststep_resized.pdf">Poster</a></span>
+            <span class="label label-warning">Demo</span>            
+          </div>
+        </div> 
+      </div>
+
+      <hr>
+        
+      </br>
+      </br>
+      </br>
+      </br>
+      </br>
+      </br>
+      </br>
+
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-lg-8 text-left">
+        <div class="row">
+          <div class="col-md-4">
+            <img class="img-rounded" src="imgs/weedsys.jpg" width="200" alt="laststep">
+          </div>
+          <div class="col-md-8">
+            <h4>Weed Infestation Identification</h4>
+            <p>We have designed to identify weed in the crop fields in smart-home platform. We developed 
+            both iOS and android application and also have backend intelligence to reduce the cost and time 
+          of identifying invasive weeds</p>
+            <span class="label label-success"><a href="papers/buildsys_poster_2016_laststep_resized.pdf">Poster</a></span>
+            <span class="label label-warning">Demo</span>            
+          </div>
+        </div> 
+      </div>
+
+
+    <hr>
+  </div>
+</section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+           <div class="row">
+              <div class="col-md-3">
+                
+              </div>
+
+                <div class="col-lg-8 text-left">
+                    <h1>Publications</h1>
+                </div>
+
+              </div>
+            <div class="row">
+              <div class="col-md-3">
+                
+              </div>
+            <div class="col-lg-8 text-left">
+        
+              <hr>                                          
+              <div class="pubmain ">
+                  <h4 class="pubtitle"> PreSight: Enabling Real-Time Detection of Accessibility Problems on Sidewalks </h4>
+                  <div class="pubauthor">Zheng Li, Mahbubur Rahman, Ryan Robucci, Nilanjan Banerjee</div>
+                  <div class="pubcite"> 2017 14th Annual IEEE International Conference on Sensing, Communication, and Networking (SECON)
+                  <br>  
+                  <span class="label label-success">Conference</span> 
+                  <span class="label label-warning">AR: 26%</span>
+                  <span class="label label-info"><a href="docs/7964930.txt">BibTex</a></span>
+                  <span class="label label-success">
+                  <a href="https://ieeexplore.ieee.org/document/7964930"> Download </a></span>
+            
+              </div>                                             
+            </div>
+        <hr>
+
+        
+        <div class="pubmain">                                          
+        <h4 class="pubtitle"> Smartphone-based Hierarchical Crowdsourcing for Weed Identification  </h4>
+         <div class="pubauthor"> Mahbubur Rahman, Brenna Blackwell, Nilanjan Banerjee, Dharmendra Saraswat </div>
+            <div class="pubcite">
+                Computers and Electronics in Agriculture, Elsevier, Vol. 113, pp: 14-23, 2015
+               <br>  
+               <span class="label label-success">Journal Paper</span> 
+               <span class="label label-success">IF: 2.1</span>
+               <span class="label label-info"><a href="docs/S0168169914003226.bib">BibTex</a></span>
+               
+               <span class="label label-success">
+               <a href="http://www.sciencedirect.com/science/article/pii/S0168169914003226"> Download </a></span>
+             </div>                                             
+      </div>
+      <hr>
+      </div>
+   </div>
+
+   </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Contact Section</h1>
+                </div>
+            </div>
         </div>
-      </section>
+    </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
-        <div class="my-auto">
-          <h2 class="mb-5">Awards &amp; Certifications</h2>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Google Analytics Certified Developer</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Mobile Web Specialist - Google Certification</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              2<sup>nd</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-            <li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - James Buchanan High School - Hackathon 2006</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              3<sup>rd</sup>
-              Place - James Buchanan High School - Hackathon 2005</li>
-          </ul>
-        </div>
-      </section>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
-    </div>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/resume.min.js"></script>
-
-  </body>
+</body>
 
 </html>

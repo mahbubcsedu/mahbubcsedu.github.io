@@ -1,0 +1,12 @@
+@INPROCEEDINGS{7964930, 
+author={Z. Li and M. Rahman and R. Robucci and N. Banerjee}, 
+booktitle={2017 14th Annual IEEE International Conference on Sensing, Communication, and Networking (SECON)}, 
+title={PreSight: Enabling Real-Time Detection of Accessibility Problems on Sidewalks}, 
+year={2017}, 
+volume={}, 
+number={}, 
+pages={1-9}, 
+keywords={computer vision;feature extraction;feature selection;handicapped aids;object detection;object recognition;pedestrians;search problems;presight;real-time detection;accessibility problems;sidewalks;visually impaired;embedded cameras;computer vision;object detection;prior-based searching schemes;human vision;machine vision;Image color analysis;Object detection;Real-time systems;Acceleration;Computer vision;Feature extraction;Databases}, 
+doi={10.1109/SAHCN.2017.7964930}, 
+ISSN={2155-5494}, 
+month={June},}
